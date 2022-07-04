@@ -46,4 +46,16 @@ n^2 - 1n + 2
 Big O Notation and Omega notation same here
 O(n^2)
 
+
+<<  Bubble Sort  >>
+
+Worst Case Scenario: O(n^2)
+
+The array is in the reverse order; we have to bubble each of the n elements
+all the way across the array,  since we can only fully bubble one element
+into position per pass, we must do this n times.
+
+Best Case Scenario: Omega(n)
+
+The array is already perfectly sorted, and we make no swaps on the first pass.
 */
